@@ -1,10 +1,11 @@
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AppRouter from "./router/AppRouter";
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="App">
+      <AppRouter />
     </div>
   );
 };

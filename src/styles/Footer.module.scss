@@ -1,0 +1,31 @@
+@import "../scss/variables";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .social-icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    .linkedIn:hover {
+      color: $heavyTeal;
+    }
+    .gitHub:hover {
+      color: $dark;
+    }
+    .instagram:hover {
+      color: $lightPink;
+    }
+    a {
+      color: white;
+    }
+  }
+  .copyright {
+    color: white;
+  }
+}
