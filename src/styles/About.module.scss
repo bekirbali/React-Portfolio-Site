@@ -1,0 +1,44 @@
+@import "../scss/variables";
+
+.about {
+  padding: 0.5rem;
+  .bio {
+    color: white;
+    padding: 0 3rem;
+    line-height: 2;
+    h2 {
+      color: $orange;
+      text-align: center;
+    }
+  }
+  .experience {
+    background-color: $dark;
+    color: white;
+    border-left: 4px solid $orange;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 65%;
+    margin: auto;
+    ul {
+      height: 100px;
+      overflow: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .place {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 0.5rem;
+      h4 {
+        font-size: 1rem;
+      }
+    }
+    h3 {
+      padding-left: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+}
