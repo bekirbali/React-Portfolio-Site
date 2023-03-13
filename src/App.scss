@@ -2,9 +2,11 @@
 @import "./scss/variables";
 
 body {
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./assets/bekir16_9.png");
+    url("./assets/bekir16_9.png") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
+  // background-position: center;
 }

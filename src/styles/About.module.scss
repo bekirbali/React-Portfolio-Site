@@ -2,10 +2,21 @@
 
 .about {
   padding: 0.5rem;
+  text-align: center;
+  margin-top: 3rem;
   .bio {
+    border: 2px solid $dark;
+    box-shadow: 0 0 0.5rem 0.1rem $dark;
     color: white;
-    padding: 0 3rem;
+    padding: 0 2rem;
     line-height: 2;
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(14px);
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-left: 4px solid $orange;
+
     h2 {
       color: $orange;
       text-align: center;
@@ -21,9 +32,11 @@
     border-bottom-right-radius: 1rem;
     width: 65%;
     margin: auto;
+    text-align: left;
     ul {
       height: 100px;
       overflow: auto;
+      text-align: left;
       &::-webkit-scrollbar {
         display: none;
       }
