@@ -1,0 +1,76 @@
+@import "../scss/variables";
+.container {
+  .featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    .mainRepos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 350px;
+      height: 500px;
+      text-align: center;
+      word-break: normal;
+      color: white;
+
+      box-shadow: 0 0 0.5rem 0.1rem $darkTeal;
+      padding: 0 0.5rem;
+      h2 {
+        height: 2.5rem;
+      }
+      img {
+        width: 300px;
+        height: 150px;
+      }
+      p {
+        height: 120px;
+      }
+      h4 {
+        height: 3.3rem;
+      }
+      a {
+        color: $aqua;
+      }
+    }
+  }
+
+  .title {
+    h2 {
+      font-size: 4rem;
+      color: white;
+      letter-spacing: 0.5rem;
+      text-align: center;
+    }
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    background-position: center;
+    h2 {
+      font-size: 1.5rem;
+    }
+    .repo {
+      background-color: #fa987538;
+      width: 200px;
+      height: 150px;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      word-break: normal;
+      backdrop-filter: blur(5px);
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      a {
+        color: $aqua;
+      }
+    }
+  }
+}
