@@ -22,6 +22,14 @@
         justify-content: center;
         gap: 1rem;
       }
+      h3 {
+        a {
+          color: $lightPink;
+          &:visited {
+            color: $lightPink;
+          }
+        }
+      }
     }
     .phone {
       border: 1px solid $lightPink;
@@ -35,6 +43,14 @@
         align-items: center;
         justify-content: center;
         gap: 1rem;
+      }
+      h3 {
+        a {
+          color: $lightPink;
+          &:visited {
+            color: $lightPink;
+          }
+        }
       }
     }
   }

@@ -10,13 +10,17 @@ const Contact = () => {
           <h2>
             <HiOutlineMail /> Email
           </h2>
-          <h3>bfbali43@gmail.com</h3>
+          <h3>
+            <a href="mailto:bfbali43@gmail.com">bfbali43@gmail.com</a>
+          </h3>
         </div>
         <div className={styles.phone}>
           <h2>
             <HiOutlinePhone /> Phone
           </h2>
-          <h3>+90 (541) 270 3026</h3>
+          <h3>
+            <a href="tel:+90 (541) 270 3026">+90 (541) 270 3026</a>
+          </h3>
         </div>
       </div>
     </div>
