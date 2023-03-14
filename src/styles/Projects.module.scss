@@ -21,7 +21,7 @@
       border-bottom-right-radius: 1rem;
       padding: 0 0.5rem;
       h2 {
-        height: 2.5rem;
+        height: 3.5rem;
       }
       img {
         width: 300px;
@@ -75,6 +75,29 @@
       a {
         color: $aqua;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    .title {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    .featured {
+      .mainRepos {
+        width: 250px;
+        height: 600px;
+        img {
+          width: 150px;
+          height: 100px;
+        }
+      }
+    }
+    .main {
+      margin-bottom: 5rem;
     }
   }
 }
