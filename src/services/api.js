@@ -31,7 +31,7 @@ export const featuredRepos = [
     repo_url: "https://github.com/bekirbali/React-Recipe-App",
     site: "https://taste-avenue-recipe.vercel.app/",
     technologies: ["JavaScript", "React", "SCSS", "HTML"],
-    gif: "./gifs/recipe.gif",
+    gif: "./gifs/Recipe.gif",
   },
   {
     name: "React-GitHub-Users",
