@@ -55,3 +55,34 @@
     }
   }
 }
+
+@media screen and (max-width: 995px) {
+  .about {
+    .bio {
+      border-left: none;
+      border-bottom: 2px solid $orange;
+    }
+    .experience {
+      border-left: 2px solid $orange;
+      margin-bottom: 5rem;
+      .place {
+        margin-bottom: 0.5rem;
+        h2 {
+          font-size: 1.2rem;
+        }
+        h4 {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .experience {
+    .place {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

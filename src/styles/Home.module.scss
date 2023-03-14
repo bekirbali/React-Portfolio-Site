@@ -21,7 +21,25 @@
     margin-top: 1rem;
     color: white;
     h3 {
-      font-size: 1.5remrem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .home {
+    .name {
+      h1 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+    .title {
+      h3 {
+        font-size: 1.2rem;
+      }
     }
   }
 }

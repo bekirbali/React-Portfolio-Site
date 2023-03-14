@@ -1,15 +1,15 @@
 @import "../scss/variables";
 
 .navbar {
-  padding: 1rem;
-  height: 17vh;
   ul {
     list-style: none;
     padding: 1.5rem 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-right: 0.5rem;
     gap: 1rem;
+    text-align: end;
+
     li {
       text-align: center;
       width: 7rem;
@@ -24,6 +24,20 @@
         &:hover {
           background-color: $orange;
           cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .navbar {
+    ul {
+      flex-direction: column;
+      align-items: flex-end;
+      li {
+        a {
+          border: none;
         }
       }
     }
