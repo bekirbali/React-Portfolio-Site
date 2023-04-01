@@ -25,6 +25,15 @@ export const featuredRepos = [
     gif: "./gifs/taskTracker.gif",
   },
   {
+    name: "React-Movie-App",
+    description:
+      "A simple movie app that uses the TMDB API for fetching data. Users can search for movies and add them to their favorites. Used firebase for authentication.",
+    repo_url: "https://github.com/bekirbali/React-Movie-App",
+    site: "https://fragmania.vercel.app/",
+    technologies: ["JavaScript", "React", "SCSS", "HTML", "Tailwindcss"],
+    gif: "./gifs/Fragmania.gif",
+  },
+  {
     name: "React-Recipe-App",
     description:
       "A simple recipe app that uses the Edamam API.This project offers you a vast collection of delicious recipes. With its user-friendly interface and dynamic search functionality, finding your next favorite dish has never been easier.",
