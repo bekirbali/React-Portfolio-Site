@@ -30,8 +30,16 @@ const Projects = () => {
                   <img src={gif} alt={name} />
                   <p>{description}</p>
                   <h4>{technologies?.join(" / ")}</h4>
-                  <Link to={repo_url}>Repo Link</Link>
-                  {site ? <Link to={site}>Site Link</Link> : "No Site Link!"}
+                  <Link target="_blank" to={repo_url}>
+                    Repo Link
+                  </Link>
+                  {site ? (
+                    <Link target="_blank" to={site}>
+                      Site Link
+                    </Link>
+                  ) : (
+                    "No Site Link!"
+                  )}
                 </div>
               );
             })}
@@ -48,7 +56,9 @@ const Projects = () => {
                 return (
                   <div className={styles.repo} key={id}>
                     <h2>{name}</h2>
-                    <Link to={html_url}>Repo Link</Link>
+                    <Link target="_blank" to={html_url}>
+                      Repo Link
+                    </Link>
                   </div>
                 );
               })}
@@ -62,7 +72,9 @@ const Projects = () => {
                 return (
                   <div className={styles.repo} key={id}>
                     <h2>{name}</h2>
-                    <Link to={html_url}>Repo Link</Link>
+                    <Link target="_blank" to={html_url}>
+                      Repo Link
+                    </Link>
                   </div>
                 );
               })}
