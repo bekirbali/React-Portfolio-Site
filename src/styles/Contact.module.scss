@@ -15,6 +15,9 @@
       transition: 0.3s ease-in-out;
       &:hover {
         background-color: $lightPink;
+        a {
+          color: white;
+        }
       }
       h2 {
         display: flex;
@@ -37,6 +40,9 @@
       transition: 0.3s ease-in-out;
       &:hover {
         background-color: $lightPink;
+        a {
+          color: white;
+        }
       }
       h2 {
         display: flex;
