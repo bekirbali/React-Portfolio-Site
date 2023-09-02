@@ -18,7 +18,7 @@ const About = () => {
           am committed to delivering projects on time and within budget. In
           addition to my technical skills, I enjoy finding creative solutions to
           complex problems. When I'm not coding, you can find me exploring new
-          technologies, or honing my skills through online courses and
+          technologies, or improving my skills through online courses and
           tutorials. Thank you for taking the time to visit my portfolio
           website, and I look forward to the opportunity to collaborate with
           you.
@@ -27,7 +27,7 @@ const About = () => {
       <div className={styles.experience}>
         <div className={styles.place}>
           <h2>Clarusway, LLC, US (REMOTE)</h2>
-          <h4>Nov 2022 - Present</h4>
+          <h4>Nov 2022 - Apr 2022</h4>
         </div>
         <h3>Front End Developer Trainee</h3>
         <ul>
